@@ -1,5 +1,6 @@
 # Git 자주 사용하는 명령어 정리
 자주 사용하는 기본적인 명령어들을 정리했습니다.
+- 최근 수정일 : 2017-04-15 / 수정ddd
 
 ## 저장소 생성(초기화) 하기
 ```bash
@@ -10,7 +11,8 @@ git init # 저장소 생성
 ```bash
 git add README.md # 커밋할 파일 추가
 git status # 현재 스테이지 상태를 확인
-git commit -m "init: README.md" # 인라인 커밋 메시지 작성 git log --decorate=full --oneline --graph # 커밋 로그 확인
+git commit -m "init: README.md" # 인라인 커밋 메시지 작성
+git log --decorate=full --oneline --graph # 커밋 로그 확인
 ```
 
 ## 브랜치 생성하기
